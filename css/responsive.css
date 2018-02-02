@@ -1,0 +1,13 @@
+@media all and (min-width: 1170px) {
+    
+}
+
+@media all and (min-width: 992px) and (max-width: 1170px) {
+    .right-content {
+        justify-content: flex-start;
+    }
+}
+
+@media all and (max-width: 992px) {
+    
+}
