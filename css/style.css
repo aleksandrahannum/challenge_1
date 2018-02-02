@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    
+}
+
+input::placeholder {
+    color: gainsboro;
+}
+
+.container-opacity {
+    background-image: url(/img/background-opacity.png);
+    width: 100%;
+    height: 1337px;
+}
+.container {
+    background-image: url(/img/background.png);
+    width: 100%;
+    height: 1337px;
+/*    display: flex;*/
+    
+}
+
+.container .logo-top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    opacity: 0.4;
+    
+}
+
+.container .logo-top img {
+    margin-right: 10px;
+}
+.content {
+    display: flex;
+}
+.container .left-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 6%;
+    flex-direction: column;
+    
+}
+
+.container .right-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 150px;
+    flex-direction: column;
+    
+}
+
+
+
+
+.container input{
+    width: 338px;
+    height: 39px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #c6c6c6;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.container  #username {
+    background-image: url(/icons/user1.png); 
+
+}
+
+.container #password {
+    background-image: url(/icons/password.png);
+
+}
+
+.container #confirm {
+    background-image: url(/icons/password.png);
+
+}
+
+.container #email {
+    background-image: url(/icons/mail.png);
+
+}
+
+.container #location {
+    background-image: url(/icons/location.png);
+
+}
+
+.container #number {
+    background-image: url(/icons/phone.png);
+}
+
+#username, #email, #confirm, #password, #location, #number {
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    text-indent: 40px;
+    color: gainsboro;
+}
+
+.container input[type="checkbox"] {
+    display: inline-block;
+    height:20px;
+    width:20px;
+    margin-right: 18px;
+}
+.checkbox label {
+    color: gainsboro;
+}
+.checkbox:checked:after {
+    content: ' ';
+    width: 13px;
+    height: 14px;
+    left: 4px;
+    top: 4px;
+    position: absolute;
+    background: #a1d63e;
+}
+
+
+
+.container .btn-sign-up {
+    width: 338px;
+    height: 39px;
+    font-size: 20px;
+    background-color: #a1d63e;
+    color: white;
+    border: 1px solid rgb(115, 168, 50);
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.border-content {
+    background-color: white;
+    width: 382px;
+    height: 421px;
+    border-radius: 5px;
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+    position: relative;
+}
+
+
+.container .left-content .send-form .border-content{
+    height: 485px;
+}
+
+.container .register-form-content, .send-form-content, .sign-form-content, .subscribe-form-content, .recover-form-content {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+.container .left-content .send-form-content textarea {
+    width: 337px;
+    height: 230px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #c6c6c6;
+    text-indent: 20px;
+}
+
+
+
+.container .left-content .send-form-content textarea::placeholder {
+    color: gainsboro;
+}
+
+.container .right-content .sign-form .border-content {
+    height: 238px;
+}
+
+.container .right-content .recover-form .border-content {
+    height: 210px;
+
+}
+
+.container .right-content .subscribe-form .border-content {
+    height: 156px;
+
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.btn-small {
+    width: 149px;
+    height: 41px;
+    background-color: #a1d63e;
+    color: white;
+    border: 1px solid rgb(115, 168, 50);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.done {
+    margin-left: 40px;
+    background-color: #a1d63e;
+    opacity: 0.5;
+}
+
+.thanks {
+    background-color: crimson;
+    opacity: 1;
+    border: 1px solid crimson;
+}
+
+.logo-bottom {
+    position: relative;
+    left: 50%;
+    bottom: 150px;
+    opacity: 0.4;
+    
+
+
